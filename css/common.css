@@ -218,11 +218,11 @@
   .education {
     text-align: center;
   }
-  .skills {
+  .languages {
     text-align: center;
     margin: 70px 0;
   }
-  .skills__subtitle::before {
+  .languages__subtitle::before {
     transform: translateX(-50%);
     left: 50%;
   }
@@ -246,10 +246,10 @@
   .education {
     text-align: start;
   }
-  .skills {
+  .languages {
     text-align: start;
   }
-  .skills__subtitle::before {
+  .languages__subtitle::before {
     transform: translateX(0);
     left: 0;
   }
