@@ -2,6 +2,15 @@
   width: 57%;
   padding: 100px 0 160px;
 }
+.right-side__info-title {
+  margin-bottom: 10px;
+  font-family: "Bai Jamjuree";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
 .right-side__info-text {
   margin-bottom: 35px;
   max-width: 630px;
@@ -89,8 +98,11 @@
     width: 100%;
     padding: 0;
   }
+  .right-side__info-box {
+    margin-top: 230px;
+  }
   .right-side__info-text {
-    margin-top: 26px;
+    margin-top: 20px;
     margin-bottom: 18px;
     max-width: 630px;
     font-family: "Inter";

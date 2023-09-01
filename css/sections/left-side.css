@@ -171,18 +171,10 @@
     width: 100%;
   }
   .head {
+    position: absolute;
+    top: 0;
     transform: rotate(0) translateY(0);
     margin: 20px 0 0 0;
-    color: #000000;
-  }
-  .head__name {
-    color: #000000;
-  }
-  .head__secondname {
-    color: #000000;
-  }
-  .head__work {
-    color: #000000 !important;
   }
   .social {
     text-align: center;

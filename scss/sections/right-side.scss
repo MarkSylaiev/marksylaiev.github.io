@@ -4,6 +4,16 @@
   width: 57%;
   padding: 100px 0 160px;
 
+  &__info-title {
+    margin-bottom: 10px;
+    font-family: 'Bai Jamjuree';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: $light-color;
+  }
+
   &__info-text {
     margin-bottom: 35px;
     max-width: 630px;
@@ -104,8 +114,12 @@
     width: 100%;
     padding: 0;
 
+    &__info-box {
+      margin-top: 230px;
+    }
+
     &__info-text {
-      margin-top: 26px;
+      margin-top: 20px;
       margin-bottom: 18px;
       max-width: 630px;
       font-family: "Inter";
@@ -121,6 +135,8 @@
       width: 100%;
     }
   }
+
+
 }
 
 @media (max-width: 450px) {

@@ -204,21 +204,10 @@
   }
 
   .head {
+    position: absolute;
+    top: 0;
     transform: rotate(0) translateY(0);
     margin: 20px 0 0 0;
-    color: $dark-color;
-
-    &__name {
-      color: $dark-color;
-    }
-
-    &__secondname {
-      color: $dark-color;
-    }
-
-    &__work {
-      color: $dark-color  !important;
-    }
   }
 
   .social {
